@@ -1,0 +1,21 @@
+@import 'colors';
+
+contact{
+    background-color: $third;
+
+    >form{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    width: 30%;
+    border-radius: 20px;
+    column-gap: 20px;
+    }
+
+    >div{
+        margin: 1rem;
+        padding: 2rem;
+        flex-direction: column;
+        column-gap: 20px;
+    }
+}
