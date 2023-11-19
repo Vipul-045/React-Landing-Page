@@ -2,16 +2,27 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <contact>
-        <form action="">
-            <div>
-            <input type="text" placeholder='Name'/>
-            <input type="mail" placeholder='E-mail'/>
-            <input type="number" placeholder='Contact Number'/>
-            <button>Submit</button>
-            </div>
+    <div className="contact">
+      <main>
+        <h1>Contact Us</h1>
+
+        <form> 
+          <div>
+            <label>Name</label>
+            <input type="text" placeholder='John Dalton'/>
+          </div>
+          <div>
+            <label>Email</label>
+            <input type="email" placeholder='johndalton12@gmail.com'/>
+          </div>
+          <div>
+            <label>Message</label>
+            <input type="text" placeholder='Tell us about your query...'/>
+          </div>
+          <button type='submit'>Submit</button>
         </form>
-    </contact>
+      </main>
+    </div>
   )
 }
 
